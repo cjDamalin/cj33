@@ -16,7 +16,7 @@ function validateLogin() {
 
     if (username === correctUsername && password === correctPassword) {
         alert("Login successful! Redirecting...");
-        window.location.href = "index2.html"; // Redirect to homepage
+        window.location.href = "index.html"; // Redirect to homepage
     } else {
         attempt++;
 
